@@ -13,9 +13,24 @@ h2                      { font-size: 18px;
 p                       { font-size: 12px;}
 
 section                 { position: absolute; width: 525px;
-                          margin: 0 auto;}
+                          margin: 0 auto;
+                          top=220px;}
 
 article                 { position: absolute; width: 455px; /*455+31+2+31+2*=521*/
                           height: 668px;
                           border: 2px solid black;
                           padding: 39px 31px;}
+
+.Item_article           { margin: 18px 0 0px 0;}
+
+.Item_article::after    { content: ".";
+                          clear: both;
+                          display: block;
+                          height: 0;
+                          visibility: hidden;}
+
+.Article_lft_img        { margin: 0px 20px 14px 0;
+                          float: left;}
+
+.Article_rght_img       { margin: 0px 0 0px 0;
+                          float: right;}
