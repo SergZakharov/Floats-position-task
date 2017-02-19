@@ -1,3 +1,21 @@
 *                       { margin: 0;
                           padding: 0;
                           font-family: Myriad Pro;}
+
+body                    { height: 2000px;}
+
+h1                      { font-size: 24px;
+                          margin: 0px 0 15px 0;}
+
+h2                      { font-size: 18px;
+                          margin: 0px 0 7px 0;}
+
+p                       { font-size: 12px;}
+
+section                 { position: absolute; width: 525px;
+                          margin: 0 auto;}
+
+article                 { position: absolute; width: 455px; /*455+31+2+31+2*=521*/
+                          height: 668px;
+                          border: 2px solid black;
+                          padding: 39px 31px;}
