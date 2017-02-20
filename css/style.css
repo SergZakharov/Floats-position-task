@@ -90,9 +90,16 @@ article:nth-of-type(1) .page_label { top: 44px;
                          display: block;
                          height: 0;
                          visibility: hidden;}
-.get_social            { margin:10px 0 0 0 ;
+.get_social            { margin:11px 0 0 0 ;
                          height:20px;}
-.get_social>.choice    { margin: 0 5px 0 0;
+.get_social>.choice    { margin: 0 7px 0 0;
                          height: 20px;
                          display: block;
                          float: left;}
+.get_social>.choice:first-child {margin: 0 7px 0 7px;}
+.get_social>.choice:last-child  {margin: 0 0 0 0;}
+.get_social::after      { content: ".";
+                          clear: both;
+                          display: block;
+                          height: 0;
+                          visibility: hidden;}
